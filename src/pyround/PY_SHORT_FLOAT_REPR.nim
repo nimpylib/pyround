@@ -1,4 +1,5 @@
 
+when defined(nimPreviewSlimSystem): import std/assertions
 import pkg/dtoa_c
 import pkg/errno/[errnoUtils, errnoConsts]
 import ./err
